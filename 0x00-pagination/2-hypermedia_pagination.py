@@ -2,7 +2,7 @@
 """function that takes two integer arguments page and page_size"""
 import csv
 import math
-from typing import List
+from typing import List, Dict, Any
 
 
 def index_range(page, page_size):
