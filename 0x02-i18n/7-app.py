@@ -19,8 +19,8 @@ users = {
 class Config(object):
     """class for configuring language and default timezone"""
     LANGUAGES = ['en', 'fr']
-    DEFAULT_LOCALE = 'en'
-    DEFAULT_TIMEZONE = 'UTC'
+    BABEL_DEFAULT_LOCALE = 'en'
+    BABEL_DEFAULT_TIMEZONE = 'UTC'
 
 
 app.config.from_object(Config)
